@@ -1,0 +1,9 @@
+@mixin border {
+  padding: 1rem;
+  border: 2px solid $lineColor;
+  border-image: linear-gradient(to right, $color 0%, $lineColor 100%);
+  border-image-slice: 1;
+  position: relative;
+  margin: 1rem 3rem 1rem 1rem;
+  clear: both;
+}
