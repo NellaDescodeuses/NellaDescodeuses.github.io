@@ -247,8 +247,13 @@ section {
   margin-right: auto;
 }
 
-#helloWorld {
+.imagesProjets {
   width: 25rem;
+  height: auto;
+}
+
+#memory {
+  width: 23rem;
   height: auto;
 }
 
