@@ -161,7 +161,7 @@ margin-top: 7vh;
     border-style: none;
   }
   a:active{
-    background-color:rgb(52, 60, 88);
+    background-color:rgba(52, 60, 88, 0.474);
   }
 }
 .leftIcons{
@@ -176,10 +176,10 @@ margin-top: 7vh;
     margin-left: 12%;
   }
 }
-#right{
-  // margin-left: 24rem;
-  // margin-right: 8rem;
-}
+// #right{
+//   // margin-left: 24rem;
+//   // margin-right: 8rem;
+// }
 //section acceuil
 #acceuil{
   display: flex;
@@ -229,9 +229,9 @@ margin-top: 7vh;
 
 }
 //Section Expérience
-#experience{
-  // border: solid 4px purple;
-}
+// #experience{
+//   // border: solid 4px purple;
+// }
 //Section Projets
 .imagesProjets{
   width: 25rem;
@@ -242,9 +242,9 @@ margin-top: 7vh;
   height: auto;
 }
 //Section Hobbies
-#hobbies{
-// border: solid 4px red;
-}
+// #hobbies{
+// // border: solid 4px red;
+// }
 //flip card
 .col {
   width: calc(25% - 2rem);
@@ -368,9 +368,9 @@ margin-top: 7vh;
   bottom: -0.75rem;
 }
 //Section contact
-#contact{
-  // border: solid 4px grey;
-}
+// #contact{
+//   // border: solid 4px grey;
+// }
 .contact{
   background-color: rgba(131, 135, 130, 0.53);
   width: 20rem;
@@ -425,7 +425,7 @@ margin-top: 7vh;
     padding-top: 5%;
     border-style: none;
     a:active{
-      background-color:rgb(52, 60, 88);
+      background-color:rgb(52, 60, 88, 0.474);
     }
   }
 }
