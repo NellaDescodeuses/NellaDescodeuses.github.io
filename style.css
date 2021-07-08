@@ -255,13 +255,6 @@ section {
   font-size: 1.2rem;
 }
 
-#CarouselControls {
-  border: solid 1px black;
-  max-width: 100vh;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .imagesProjets {
   width: 25rem;
   height: auto;
