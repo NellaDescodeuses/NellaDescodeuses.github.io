@@ -221,6 +221,13 @@ margin-top: 7vh;
   // margin-bottom: 7rem;
 
 }
+#rowCompetences{
+  background-color: transparent;
+}
+.borderCompetences{
+  @include border;
+  font-size: 1.2rem;
+}
 #CarouselControls{
   border: solid 1px black;
   max-width: 100vh;
