@@ -1,25 +1,19 @@
 @import "Assets/_variables";
 @import "Assets/_mixins";
-@font-face {
-  font-family: 'Spirax', cursive;
-  src:url("/home/nella/Bureau/Exercice/HTML/Projet/Projet_cv/Polices_cv/Spirax/Spirax-Regular.ttf");
-}
-@font-face {
-  font-family: 'Gupter', serif;
-  src: url("/home/nella/Bureau/Exercice/HTML/Projet/Projet_cv/Polices_cv/Gupter/Gupter-Regular.ttf");
-}
 html{
   scroll-behavior: smooth;
 }
 body{
   background-color: $fondBurgerColor;
   color: $bodyColor;
-  font-family: 'Spirax', cursive;
+  font-family: 'Gupter', serif;
   text-align: center;
+}
+h1, h2,h3{
+  font-family: 'Spirax', cursive;
 }
 /*page d'acceuil du CV*/
 .bienvenue{
-  font-family: 'Spirax', cursive;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,6 +21,7 @@ body{
 }
 .bienvenue a{
   color: $bodyColor;
+  font-family: 'Spirax', cursive;
   font-size: 75px;
   text-decoration: none;
 }
@@ -208,7 +203,8 @@ margin-top: 7vh;
   .side{
     @include border;
     margin-bottom: 2rem;
-    // le texte est écrit verticalement
+    // le texte est écrit verticalement sur firefox
+    font-family: 'Spirax', cursive;
     writing-mode: sideways-lr;
     font-size: 3rem;
   }
